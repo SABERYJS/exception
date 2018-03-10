@@ -1,0 +1,20 @@
+{
+  "name": "saberyjs/exception",
+  "description": "custom php exception class",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "saberyjs",
+      "email": "saberyjs@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6"
+  },
+  "autoload":{
+    "psr-4":{
+      "saberyjs\\exception\\":"src/"
+    }
+  }
+}
